@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0% 100%;
+  --foreground: 0 0% 3.9%;
+  --muted: 0 0% 96.1%;
+  --muted-foreground: 0 0% 45.1%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 0 0% 3.9%;
+  --card: 0 0% 100%;
+  --card-foreground: 0 0% 3.9%;
+  --border: 0 0% 89.8%;
+  --input: 0 0% 89.8%;
+  
+  /* Primary - Purple */
+  --primary: 246 90% 60%;
+  --primary-foreground: 210 40% 98%;
+  --primary-50: 246 100% 97%;
+  --primary-100: 246 100% 94%;
+  --primary-200: 245 95% 90%;
+  --primary-500: 246 90% 60%;
+  --primary-600: 247 84% 54%;
+  --primary-700: 249 80% 48%;
+  
+  /* Secondary - Pink */
+  --secondary: 328 85% 55%;
+  --secondary-foreground: 0 0% 98%;
+  --secondary-50: 328 100% 97%;
+  --secondary-100: 328 100% 94%;
+  --secondary-200: 329 95% 90%;
+  --secondary-500: 328 85% 55%;
+  --secondary-600: 330 79% 46%;
+  --secondary-700: 333 79% 37%;
+  
+  /* Neutral */
+  --neutral-50: 0 0% 98%;
+  --neutral-100: 0 0% 96%;
+  --neutral-200: 0 0% 90%;
+  --neutral-300: 0 0% 83%;
+  --neutral-400: 0 0% 64%;
+  --neutral-500: 0 0% 50.2%;
+  --neutral-600: 0 0% 34.5%;
+  --neutral-700: 0 0% 23.3%;
+  --neutral-800: 0 0% 13.7%;
+  --neutral-900: 0 0% 9%;
+  
+  /* Success */
+  --success: 142 76% 45%;
+  
+  /* Warning */
+  --warning: 38 92% 50%;
+  
+  /* Danger */
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 210 40% 98%;
+  
+  --ring: var(--primary);
+  --radius: 0.5rem;
+}
+
+.dark {
+  --background: 240 10% 3.9%;
+  --foreground: 0 0% 98%;
+  --muted: 240 3.7% 15.9%;
+  --muted-foreground: 240 5% 64.9%;
+  --popover: 240 10% 3.9%;
+  --popover-foreground: 0 0% 98%;
+  --card: 240 10% 3.9%;
+  --card-foreground: 0 0% 98%;
+  --border: 240 3.7% 15.9%;
+  --input: 240 3.7% 15.9%;
+  --primary: 246 90% 60%;
+  --primary-foreground: 0 0% 98%;
+  --secondary: 328 85% 55%;
+  --secondary-foreground: 0 0% 98%;
+  --destructive: 0 62.8% 30.6%;
+  --destructive-foreground: 0 0% 98%;
+  --ring: 240 4.9% 83.9%;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-neutral-50 font-body text-neutral-800;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
+  }
+}
+
+.font-body {
+  font-family: 'Inter', sans-serif;
+}
+
+.font-heading {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.bg-gradient {
+  @apply bg-gradient-to-r from-primary-600 to-secondary-600;
+}
+
+.text-gradient {
+  @apply bg-gradient-to-r from-primary-600 to-secondary-600 bg-clip-text text-transparent;
+}

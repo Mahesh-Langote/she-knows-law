@@ -1,0 +1,130 @@
+{
+    "organizations": [
+      {
+        "id": 1,
+        "name": "National Commission for Women",
+        "description": "Government body dedicated to protecting women's rights and addressing complaints",
+        "phone": "+911126942369",
+        "website": "https://ncw.nic.in",
+        "categories": ["Legal Aid", "Advocacy"],
+        "iconColor": "blue",
+        "featured": true
+      },
+      {
+        "id": 2,
+        "name": "Lawyers Collective",
+        "description": "Legal aid and advocacy for women's rights, gender justice, and equality",
+        "phone": "+912243411244",
+        "website": "https://www.lawyerscollective.org",
+        "categories": ["Legal Aid", "Consultation"],
+        "iconColor": "purple",
+        "featured": true
+      },
+      {
+        "id": 3,
+        "name": "Majlis",
+        "description": "Legal center providing support for women survivors of violence and abuse",
+        "phone": "+912226661252",
+        "website": "https://www.majlislaw.com",
+        "categories": ["Legal Aid", "Crisis Support"],
+        "iconColor": "red",
+        "featured": true
+      },
+      {
+        "id": 4,
+        "name": "Shakti Shalini",
+        "description": "Crisis intervention center providing shelter and counseling for women",
+        "phone": "+911124373737",
+        "website": "https://shaktishalini.org",
+        "categories": ["Crisis Support", "Shelter", "Counseling"],
+        "iconColor": "orange",
+        "featured": true
+      },
+      {
+        "id": 5,
+        "name": "SNEHA",
+        "description": "Society for Nutrition, Education and Health Action working against domestic violence",
+        "phone": "+912224042627",
+        "website": "https://snehamumbai.org",
+        "categories": ["Crisis Support", "Healthcare"],
+        "iconColor": "green"
+      },
+      {
+        "id": 6,
+        "name": "All India Women's Conference",
+        "description": "Organization dedicated to upliftment and empowerment of women and children",
+        "phone": "+911123389680",
+        "website": "https://aiwc.org.in",
+        "categories": ["Legal Aid", "Education"],
+        "iconColor": "indigo"
+      },
+      {
+        "id": 7,
+        "name": "Vimochana",
+        "description": "Forum for women's rights working against violence and discrimination",
+        "phone": "+918025492781",
+        "website": "https://vimochana.co.in",
+        "categories": ["Crisis Support", "Legal Aid"],
+        "iconColor": "pink"
+      },
+      {
+        "id": 8,
+        "name": "SAMA",
+        "description": "Resource group for women and health focusing on reproductive rights",
+        "phone": "+911126535647",
+        "website": "https://samawomenshealth.in",
+        "categories": ["Healthcare", "Research"],
+        "iconColor": "teal"
+      },
+      {
+        "id": 9,
+        "name": "Action India",
+        "description": "Organization working on gender equality and women's health in urban slums",
+        "phone": "+911126143127",
+        "website": "https://actionindiaorg.in",
+        "categories": ["Counseling", "Education"],
+        "iconColor": "amber"
+      },
+      {
+        "id": 10,
+        "name": "CREA",
+        "description": "Feminist human rights organization working on women's rights and sexuality",
+        "phone": "+911124377707",
+        "website": "https://creaworld.org",
+        "categories": ["Human Rights", "Sexuality"],
+        "iconColor": "rose"
+      },
+      {
+        "id": 11,
+        "name": "Azad Foundation",
+        "description": "Organization providing professional training for resource-poor women",
+        "phone": "+911145754190",
+        "website": "https://azadfoundation.com",
+        "categories": ["Livelihood", "Education"],
+        "iconColor": "lime"
+      },
+      {
+        "id": 12,
+        "name": "Jagori",
+        "description": "Women's resource center focusing on awareness, education, and outreach",
+        "phone": "+911126692700",
+        "website": "https://jagori.org",
+        "categories": ["Crisis Support", "Research"],
+        "iconColor": "cyan"
+      }
+    ],
+    "categories": [
+      { "id": "legal-aid", "name": "Legal Aid", "color": "blue" },
+      { "id": "advocacy", "name": "Advocacy", "color": "green" },
+      { "id": "consultation", "name": "Consultation", "color": "purple" },
+      { "id": "crisis-support", "name": "Crisis Support", "color": "red" },
+      { "id": "shelter", "name": "Shelter", "color": "yellow" },
+      { "id": "counseling", "name": "Counseling", "color": "orange" },
+      { "id": "healthcare", "name": "Healthcare", "color": "green" },
+      { "id": "education", "name": "Education", "color": "purple" },
+      { "id": "research", "name": "Research", "color": "blue" },
+      { "id": "human-rights", "name": "Human Rights", "color": "green" },
+      { "id": "sexuality", "name": "Sexuality", "color": "pink" },
+      { "id": "livelihood", "name": "Livelihood", "color": "yellow" }
+    ]
+  }
