@@ -67,9 +67,9 @@ const Home: React.FC = () => {
       </section>
 
       {/* Laws Section */}
-      {/* <section id="laws" className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+      <section id="laws" className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
         <LawList searchTerm={searchTerm} />
-      </section> */}
+      </section>
 
       {/* Support Organizations - REPLACED WITH NEW COMPONENT */}
       <OrganizationsSection />
